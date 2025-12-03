@@ -1,5 +1,5 @@
 import profilePic from '../assets/profile-pic.png';
-import resumePdf from '../assets/Hari Parajuli resume.pdf';
+import resumePdf from '../assets/Hari_Parajuli_Resume.pdf';
 import './Hero.css';
 
 const Hero = () => {
