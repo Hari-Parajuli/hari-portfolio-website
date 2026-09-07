@@ -453,12 +453,32 @@
         gap: 2.5rem;
     }
 
+    /* Screenshots: 2-column grid, fills screen width */
     .aura-screenshots-row {
-        justify-content: flex-start;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding: 1rem 0 2rem;
+        overflow-x: unset;
+        justify-content: unset;
+    }
+
+    .aura-screenshot-card {
+        flex: unset;
     }
 
     .aura-phone-frame {
-        width: 150px;
+        width: 100%;
+    }
+
+    .aura-screenshot-caption {
+        max-width: 100%;
+    }
+
+    /* Tech Stack: 2-column grid */
+    .aura-tech-card {
+        flex: 0 0 calc(50% - 0.625rem);
+        min-width: unset;
     }
 
     .aura-title {
